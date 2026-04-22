@@ -1,0 +1,8 @@
+model_list:
+  - model_name: agent-evaluator
+    litellm_params:
+      model: gpt-4o # Model responsible for analyzing the results and writing the report
+      api_key: os.environ/OPENAI_API_KEY # Ensure OPENAI_API_KEY is set in your environment
+      # If you want to use a local strong model as the evaluator, use:
+      # model: ollama/llama3
+      # api_base: http://localhost:11434
