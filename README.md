@@ -20,7 +20,7 @@ pip install litellm requests pyyaml
 
 Make sure your Ollama instance is active:
 
-# In a separate terminal or background
+In a separate terminal or background
 ```
 ollama serve
 ```
